@@ -106,7 +106,7 @@ class homepage extends Phaser.Scene{
         this.load.image("background", "assets/background.png");
         this.load.image("player", "assets/celeste.png");
         this.load.image("wall", "assets/block.png");
-        this.load.image("gun", "assets/SDMG.png");
+        this.load.image("gun", "assets/sdmg.png");
         this.load.image("bullet", "assets/bullet.png");
 
     }
