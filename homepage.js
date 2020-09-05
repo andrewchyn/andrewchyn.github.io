@@ -47,6 +47,8 @@ class Bullet extends Phaser.Physics.Arcade.Sprite {
         if (contains(this.x, this.y, r1)) {
             console.log("hit");
             //r1.setFillStyle(0x6666ff)
+            this.setActive(false);
+            this.setVisible(false);
             switchScene = true;
         }
 
