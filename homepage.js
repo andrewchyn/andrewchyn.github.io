@@ -44,7 +44,7 @@ class Bullet extends Phaser.Physics.Arcade.Sprite {
 
     fire(x, y) {
         this.body.setCircle(1);
-        this.setBounce(0.8);
+        this.setBounce(1);
         this.setScale(0.02);
         this.setSize(0.2,0.2)
         this.body.reset(x, y+7);
@@ -158,7 +158,8 @@ class homepage extends Phaser.Scene{
             walls.create(0,-35, "wall").setScale(20,0.2).setDepth(4).refreshBody();
 
             walls.create(300,140, "wall").setScale(0.1,1).refreshBody();
-            // walls.create(300,300, "wall").setScale(0.2).refreshBody();
+            walls.create(1000,620, "wall").setScale(0.2).refreshBody();
+            walls.create(1200,400, "wall").setScale(0.2).refreshBody();
             // walls.create(400,400, "wall").setScale(0.2).refreshBody();
 
             // Breakables
@@ -166,7 +167,7 @@ class homepage extends Phaser.Scene{
             breakables.create(100,300, "black").setScale(1,0.2).refreshBody();
 
             //test button
-            r1 = this.add.rectangle(700,500,200,200, 0xeb34d5);
+            r1 = this.add.rectangle(700,550,200,200, 0xeb34d5);
             r1.setDepth(4);
 
 
@@ -189,7 +190,7 @@ class homepage extends Phaser.Scene{
             this.physics.add.collider(player, walls);
             this.physics.add.collider(this.bullets, walls);
             this.physics.add.collider(player, breakables);
-            this.physics.add.collider(player, this.bullets);
+            // this.physics.add.collider(player, this.bullets);
         
 
             // Cursor
