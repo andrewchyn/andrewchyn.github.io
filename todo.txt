@@ -1,9 +1,0 @@
-- new intro background
-    - new character sprite
-        - new gun sprite
-- variable jump. done
-- dashing
-- crouching
-
-- contact page
-- layout project page
