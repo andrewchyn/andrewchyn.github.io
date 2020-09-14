@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import url("webfonts/Helvetica_400/stylesheet.css");
+@import url("webfonts/century_bold/stylesheet.css");
+@import url("webfonts/proxima/stylesheet.css");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li, a, .contact {
+	font-family: "century_bold";
+	font-weight: 500;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+	margin-right:10px;
+}
+
+.contact {
+	font-weight: 500;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+.andrew {
+	font-family: "century bold";
+	font-size: 50px;
+	margin-top: 0px;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.andrew:hover {
+	color: white;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 200px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: white;
+}
+
+.chen {
+	color: #FFFFFF;
+	font-family: "century bold";
+	font-size: 88px;
+	min-height: 20px;
+	height: 100px;
+	min-width: 0px;
+	line-height: 90px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin-top: -11px;
+	max-height: 0px;
+	margin-bottom: 35px;
+	margin-left: 15px;
+}
+
+.rect {
+	z-index: -1;
+	position: absolute;
+	display: block;
+	height: 1200px;
+	width: 1200px;
+	background-color: black;
+	left: 18.3vw;
+	top: 0vh;
+  }

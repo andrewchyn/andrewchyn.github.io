@@ -2,28 +2,38 @@
     <html>
         <head>
             <meta charset="utf-8">
-            <title>My Website</title>
-            <link href="homepage.css" rel="stylesheet" type="text/css">
+            <title>Homepage / Andrew Chen</title>
+            <link href="style.css" rel="stylesheet" type="text/css">
             <script src="phaser.min.js"></script>
+            <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
         </head>
 
-        <body id="heading;" style="background-color:black;">
-            <p class="andrew">ANDREW </p>
-            <p class="chen">CHEN</p>
-            <p class="hi">yeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah</p>
-            <a class="hi" href="contact.html">yeeeeeeeeeeeeeeeeah</a>
+        <style>
+            body {
+                /* background-image: url("snow.jpg"); */
+                background-image: url("black.png");
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+
+        <body onselectstart="return false">
+            <div class="rect"></div>
+            <header>
+                <a class="andrew" href="#">ANDREW CHEN</a>
+                    <ul class="nav_links">
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a class="contact" href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
             <div id = 'game'></div>
             <script src="homepage.js"></script>
             <script src="testScene.js"></script>
             <script src="config.js"></script>
-            <!-- <p class="disclaimer">Written with Phaser 3, WIP</p> -->
-            <p class="contact">https://github.com/andrewchyn | https://www.linkedin.com/in/andrewchyn/ | andrewyuliangchen@gmail.com</p>
         </body>
-        
-    <!-- <canvas id ="canvas" style="border:0px solid #000; background-color:white;"> 
-    </canvas>
 
-    <script src="script.js"></script>-->
-   
-
+        <script language="JavaScript">
+            document.oncontextmenu =new Function("return false;")
+        </script>    
 </html>
