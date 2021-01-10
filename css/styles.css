@@ -129,7 +129,7 @@ footer {
 }
 
 .background-alt {
-  background: #f2f2f5;
+  background: rgb(19, 21, 22);
 }
 
 @keyframes pulsate {
@@ -149,17 +149,17 @@ footer {
     ---------------------------
 */
 #about {
-  background: white;
+  background: rgb(14,15,16);
   margin-top: 8%;
-  border-top: 1px solid #ff4f4f;
+  border-top: 1px solid rgb(124,0,0);
   padding: 3% 5%;
-  border-bottom: 1px solid #ff4f4f;
+  border-bottom: 1px solid rgb(124,0,0);
 }
 #about h2 {
   color: #ff4f4f;
 }
 #about p {
-  color: #1a1a1a;
+  color:rgb(175, 172, 168);
   margin: 0;
 }
 
@@ -193,12 +193,16 @@ footer {
   margin-bottom: 50px;
 }
 
+#projects p {
+	color: #afaca8;
+}
+
 .project {
   position: relative;
   max-width: 900px;
   margin: 0 auto 30px auto;
   overflow: hidden;
-  background: #fff;
+  background: rgb(14, 15, 16);
   border-radius: 4px;
 }
 
@@ -222,14 +226,15 @@ footer {
   font-weight: 500;
   color: #ff4f4f;
   margin: 0 0 15px 0;
-  background: #fff;
+  background: rgb(14, 15, 16);
   padding: 5px 10px;
 	border-radius: 10px;
 }
 
 .project-info h4 {
+	color: #afaca8;
 	margin: 0 0 15px 0;
-	background: #fff;
+	background: rgb(14, 15, 16);
 	padding: 5px 10px;
 	border-radius: 10px;
   }
@@ -238,7 +243,7 @@ footer {
   color: #0a0a0a;
   margin: 0 0 15px 0;
   font-size: 0.9em;
-  background: #fff;
+  background: rgb(14, 15, 16);
   padding: 5px 10px;
 	border-radius: 10px;
 }
@@ -258,7 +263,7 @@ footer {
 	font-size: 1em;
 	color: white;
 	padding: 5px 10px;
-	background: #ff4f4f;
+	background: rgb(126, 0, 0);
 	border-radius: 10px;
 }
 
