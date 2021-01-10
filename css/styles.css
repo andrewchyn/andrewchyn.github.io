@@ -46,7 +46,8 @@ body.active {
 }
 
 footer {
-  padding: 50px 0;
+  justify-content: center;
+  padding: 40px 0;
 }
 
 .top {
@@ -127,6 +128,7 @@ footer {
   margin: 0 auto;
   background: #888888;
 }
+
 
 .background-alt {
   background: rgb(19, 21, 22);
@@ -358,3 +360,6 @@ article {
 	color: rgb(240, 69, 69);
 }
 
+.ul {
+	justify-content: center;
+}
