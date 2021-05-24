@@ -1,0 +1,58 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Systems Engineering Intern
+# your company information
+company:
+  name: General Fusion
+  url: "https://generalfusion.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "/files/General Fusion-R.pdf"
+
+# a summary about you
+summary: "I am an aspiring engineer interested in (almost) all fields. I particularly want to work on moonshot projects that use cutting edge technology to try and solve difficult, real-world problems. I have experience working in a wide spectrum of fields ranging from RC airplanes, to machine learning, to nuclear fusion"
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "andrewyuliangchen@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/andrewchyn"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/andrewchyn/"
+
+- name: Steam
+  icon: "fab fa-steam"
+  url: "https://steamcommunity.com/id/nullcline_/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+# softSkills:
+# - name: Software Development 
+#   percentage: 80
+#   color: black
+# - name: Electronics
+#   percentage: 70
+#   color: black
+# - name: CAD
+#   percentage: 50
+#   color: black
+# - name: Gaming
+#   percentage: 100
+#   color: black

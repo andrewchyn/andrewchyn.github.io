@@ -1,0 +1,21 @@
+# some information about you
+name: "Andrew Chen"
+nickname: "This website is a WIP, but you can still hire me if you want to"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: ""
+image: "images/author/cat.png"
+
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "andrewyuliangchen@gmail.com"
+  phone: "just email me, its 2021. better yet, just add me on discord "
+  discord: 
+
+# some summary about what you do
+summary:
+  - fucking steak baby
+  - yeah baby 
+  - monday brunch baby fuck
+  - fuck
+  - steak fuck
+  - fucking steak yeah
